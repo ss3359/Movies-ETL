@@ -1,0 +1,8 @@
+DROP TABLE movies_df;
+
+Select count(*) from movies; 
+
+Select count(*) from ratings; 
+
+Select * from movies; 
+Select * from ratings; 
