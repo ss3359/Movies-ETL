@@ -37,21 +37,33 @@ This is a pretty hefy dataframe. Just to give a persective of the layout of the 
 
 # Part Three: Extract and Transform the Wikipedia Data
 
-In this section, we have used our Python and Knolwledge, combining with using the ETL process on the Kaggle meteadata and the MovieLens ratings data. We then converted the transformed data into sepatate dataframes. The last step is we mergered. the MovieLens ratings Dataframe with the "movies_df" Dataframe to create a new dataframe, called "movies_with_ratings_df". Here are the dataframes for "wiki_movies_df", the mergered "movies_with_ratings_df", and the mergered "movies_df" respectively. 
+In this section, we have used our Python and Knolwledge, combining with using the ETL process on the Kaggle meteadata and the MovieLens ratings data. We then converted the transformed data into sepatate dataframes. The last step is we mergered. the MovieLens ratings Dataframe with the "movies_df" Dataframe to create a new dataframe, called "movies_with_ratings_df". Here are the dataframes for "wiki_movies_df", the mergered "movies_with_ratings_df", and the mergered "movies_df" respectively. The code to execute this process is provided under the file "ETL_clean_kaggle_data.ipynb" 
 
-### Fig 6 (wiki_movies_df)
+### Fig 6 (wiki_movies_df): 
 
 <img width="989" alt="Screen Shot 2022-08-10 at 10 55 43 AM" src="https://user-images.githubusercontent.com/104328106/183970866-8bb56a5d-bc37-4e74-b7aa-89903840666e.png">
 
 
-### Fig 7 (movies_with_ratings_df)
+### Fig 7 (movies_with_ratings_df): 
 
 <img width="977" alt="Screen Shot 2022-08-10 at 10 56 04 AM" src="https://user-images.githubusercontent.com/104328106/183971022-b54ee67e-bad8-4240-b9f8-29955964aeb1.png">
 
 
-### Fig 8 (movies_df)
+### Fig 8 (movies_df): 
 
 <img width="978" alt="Screen Shot 2022-08-10 at 10 56 29 AM" src="https://user-images.githubusercontent.com/104328106/183971215-257809f5-2fde-4dd8-8165-f2cc2dbb215e.png">
 
 
 # Part Four: Create the Movie Database
+
+At the last step, we load our mergered data into a Postgres SQL database. From there, we can export that database as a comma separated file (.csv). The code to execute this process is provided under "ETL_create_database.ipynb"
+Here are the queries presented for movies_query, and ratings_query respectively. 
+
+### Fig 9 (movies_query) 
+
+<img width="1185" alt="movies_query" src="https://user-images.githubusercontent.com/104328106/183976809-86148a8c-f0ab-4f44-95bf-c843901a3327.png">
+
+
+### Fig 10 (ratings_query)
+
+<img width="614" alt="ratings_query" src="https://user-images.githubusercontent.com/104328106/183976851-1cc15854-9475-4769-b161-ca7002c3afcc.png">
