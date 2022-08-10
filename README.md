@@ -61,9 +61,11 @@ Here are the queries presented for movies_query, and ratings_query respectively.
 
 ### Fig 9 (movies_query) 
 
-<img width="1185" alt="movies_query" src="https://user-images.githubusercontent.com/104328106/183976809-86148a8c-f0ab-4f44-95bf-c843901a3327.png">
+<img width="1375" alt="movies_query" src="https://user-images.githubusercontent.com/104328106/183976986-c0297d74-92b7-4d50-815f-ce9fd9edf2e3.png">
+
 
 
 ### Fig 10 (ratings_query)
 
-<img width="614" alt="ratings_query" src="https://user-images.githubusercontent.com/104328106/183976851-1cc15854-9475-4769-b161-ca7002c3afcc.png">
+<img width="1378" alt="Screen Shot 2022-08-10 at 11 21 31 AM" src="https://user-images.githubusercontent.com/104328106/183977007-a6f2ee9d-1692-4c99-bd5f-47e0923053a4.png">
+
