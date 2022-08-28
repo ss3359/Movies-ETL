@@ -3,7 +3,7 @@
 
 # Purpose 
 
-In this project, we use out knowledge of Python, Pandas, and SQL, to use a process called Extract, Transform, and Load the data. This is known as ETL We refactor code to create one function taking in three files-Wikipedia data, Kaggle metadata, and the MovieLens rating data. Finally, we add the data to a PostgresSQL database. 
+We use out knowledge of Python, Pandas, and SQL, to use a process called Extract, Transform, and Load the data. This is known as ETL We refactor code to create one function taking in three files-Wikipedia data, Kaggle metadata, and the MovieLens rating data. Finally, we add the data to a PostgresSQL database. 
 
 # Part One: Write an ETL function to Read Three Data Files
 Using our knowledge of Python and Pandas, we refactor our code and applying the ETL process by creating a function that reads three data files and makes three separate dataframes. The code to execute this process is provided under the file "ETL_function_test.ipynb". Here are the wiki_movies_df, kaggle_metadata, and the ratings dataframes respectively.
